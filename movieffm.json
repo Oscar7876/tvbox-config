@@ -1,4 +1,5 @@
 {
+  "spider": "https://cdn.jsdelivr.net/gh/FongMi/CatVodSpider@main/jar/custom/spider.jar",
   "sites": [
     {
       "key": "MovieFFM",
@@ -9,33 +10,32 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": {
+        "请求头": "User-Agent$Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36#Referer$https://www.movieffm.net/",
         "站名": "MovieFFM",
         "主页url": "https://www.movieffm.net",
         "分类": "電影$&連續劇$&動漫$&綜藝",
         "分类值": "movies$&drama$&drama/?tvtype=anime$&drama/?tvtype=10",
         "分类url": "https://www.movieffm.net/{cateId}/page/{页}/",
         
-        "数组": "<article id=\"post-&&</article>",
+        "数组": "class=\"items\"&&<article&&</article>",
         "图片": "data-lazy-src=\"&&\"",
         "标题": "alt=\"&&\"",
-        "副标题": "class=\"upinfo\">&&</div>",
+        "副标题": "class=\"quality\">&&</span>||class=\"upinfo\">&&</div>",
         "链接": "href=\"&&\"",
         
         "搜索模式": "1",
         "搜索url": "https://www.movieffm.net/xssearch?q={wd}",
-        "搜索数组": "<article id=\"post-&&</article>",
+        "搜索数组": "<article&&</article>",
         "搜索图片": "data-lazy-src=\"&&\"",
         "搜索标题": "alt=\"&&\"",
-        "搜索副标题": "class=\"quality\">&&</span>",
+        "搜索副标题": "class=\"quality\">&&</span>||class=\"upinfo\">&&</div>",
         "搜索链接": "href=\"&&\"",
         
         "导演": "導演</h2>&&</div>",
         "主演": "演員</h2>&&</div>",
         "简介": "class=\"wp-content\">&&</div>",
         
-        "线路数组": "<ul id=\"playeroptionsul\"&&</ul>",
-        "线路标题": "MovieFFM專線",
-        
+        "线路标题": "MovieFFM",
         "播放数组": "videourls:[&&]",
         "播放列表": "{&&}",
         "播放标题": "source\":&&,",
