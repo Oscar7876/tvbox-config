@@ -1,0 +1,49 @@
+{
+  "sites": [
+    {
+      "key": "MovieFFM",
+      "name": "🎬 MovieFFM 線上看",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "站名": "MovieFFM",
+        "主页url": "https://www.movieffm.net",
+        "分类": "電影$&連續劇$&動漫$&綜藝",
+        "分类值": "movies$&drama$&drama/?tvtype=anime$&drama/?tvtype=10",
+        "分类url": "https://www.movieffm.net/{cateId}/page/{页}/",
+        
+        "数组": "<article id=\"post-&&</article>",
+        "图片": "data-lazy-src=\"&&\"",
+        "标题": "alt=\"&&\"",
+        "副标题": "class=\"upinfo\">&&</div>",
+        "链接": "href=\"&&\"",
+        
+        "搜索模式": "1",
+        "搜索url": "https://www.movieffm.net/xssearch?q={wd}",
+        "搜索数组": "<article id=\"post-&&</article>",
+        "搜索图片": "data-lazy-src=\"&&\"",
+        "搜索标题": "alt=\"&&\"",
+        "搜索副标题": "class=\"quality\">&&</span>",
+        "搜索链接": "href=\"&&\"",
+        
+        "导演": "導演</h2>&&</div>",
+        "主演": "演員</h2>&&</div>",
+        "简介": "class=\"wp-content\">&&</div>",
+        
+        "线路数组": "<ul id=\"playeroptionsul\"&&</ul>",
+        "线路标题": "MovieFFM專線",
+        
+        "播放数组": "videourls:[&&]",
+        "播放列表": "{&&}",
+        "播放标题": "source\":&&,",
+        "播放链接": "url\":\"&&\"",
+        
+        "免嗅": "0",
+        "嗅探词": ".m3u8#.mp4"
+      }
+    }
+  ]
+}
